@@ -132,7 +132,7 @@ const Cart = () => {
           </TableContainer>
           <Box className="total-checkout-container">
             <Typography variant="h6" className="grand-total">
-              Tổng tiền: {formatValue(calculateGrandTotal())}
+              Tổng tiền : {formatValue(calculateGrandTotal())}
             </Typography>
             <Button
               variant="contained"
