@@ -107,7 +107,7 @@ const Cart = () => {
                       />
                       <Typography>{item.name}</Typography>
                     </TableCell>
-                    <TableCell>{formatValue(item.price)}</TableCell>
+                    <TableCell>{formatValue(item.price)} VNĐ</TableCell>
                     <TableCell>
                       <IconButton onClick={() => handleDecrease(item)}>
                         <RemoveIcon />
